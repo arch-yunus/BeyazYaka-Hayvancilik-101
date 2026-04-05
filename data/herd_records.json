@@ -1,0 +1,50 @@
+[
+  {
+    "tag_id": "TR-001",
+    "name": "Karabaş",
+    "breed": "Holstein",
+    "birth_date": "2022-03-15",
+    "last_calving": "2024-11-01",
+    "lactation_number": 2,
+    "scc_last": 185000,
+    "bcs_last": 3.5,
+    "health_events": []
+  },
+  {
+    "tag_id": "TR-002",
+    "name": "Sari",
+    "breed": "Holstein",
+    "birth_date": "2021-07-20",
+    "last_calving": "2024-09-10",
+    "lactation_number": 3,
+    "scc_last": 450000,
+    "bcs_last": 3.2,
+    "health_events": [
+      "[2026-04-05 21:43] Sol on meme lobunda sertlik gozlemlendi. CMT: 2+. Vet cagirildi."
+    ]
+  },
+  {
+    "tag_id": "TR-003",
+    "name": "Benekli",
+    "breed": "Montbeliard",
+    "birth_date": "2023-01-05",
+    "last_calving": "2025-02-14",
+    "lactation_number": 1,
+    "scc_last": 95000,
+    "bcs_last": 2.25,
+    "health_events": []
+  },
+  {
+    "tag_id": "TR-004",
+    "name": "Dolma",
+    "breed": "Jersey",
+    "birth_date": "2020-05-12",
+    "last_calving": "2025-01-20",
+    "lactation_number": 4,
+    "scc_last": 780000,
+    "bcs_last": 3.8,
+    "health_events": [
+      "[2026-04-05 21:43] Klinik mastitis - E. coli. IV destekli AB baslandi."
+    ]
+  }
+]

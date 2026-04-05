@@ -1,0 +1,55 @@
+{
+    "_meta": {
+        "last_updated": "2026-04",
+        "currency": "TRY",
+        "note": "Bu değerler referans niteliğindedir. Güncel fiyatları yerel piyasadan doğrulayın."
+    },
+    "milk": {
+        "raw_milk_avg": 20.0,
+        "premium_organic": 32.0,
+        "a2_milk_premium": 38.0
+    },
+    "beef": {
+        "holstein_male_calf_live_weight_per_kg": 180,
+        "angus_prime_carcass_per_kg": 650,
+        "simmental_mixed_per_kg": 220
+    },
+    "feeds": {
+        "corn_silage_per_ton_asfed": 850,
+        "alfalfa_silage_per_ton_asfed": 1500,
+        "barley_grain_per_ton": 6500,
+        "soybean_meal_per_ton": 14500,
+        "cottonseed_meal_per_ton": 11000,
+        "wheat_straw_per_ton": 1200,
+        "commercial_concentrate_per_ton": 8500,
+        "dry_beet_pulp_per_ton": 7000,
+        "sunflower_meal_per_ton": 9500
+    },
+    "cattle_live_prices": {
+        "holstein_heifer_pregnant_per_head": 85000,
+        "holstein_cow_3rd_lactation_per_head": 65000,
+        "angus_heifer_per_head": 72000,
+        "simmental_cow_per_head": 70000,
+        "saanen_goat_dairy_per_head": 8500
+    },
+    "veterinary": {
+        "fmd_vaccine_per_dose": 45,
+        "brucella_vaccine_per_dose": 30,
+        "lsd_vaccine_per_dose": 35,
+        "clostridial_combo_per_dose": 55,
+        "routine_visit_fee": 500,
+        "insemination_cost_conventional_per_dose": 350,
+        "insemination_cost_sexed_per_dose": 2500,
+        "pregnancy_check_per_head": 200
+    },
+    "equipment": {
+        "2x4_milking_parlor": 750000,
+        "4x4_milking_parlor": 1200000,
+        "vms_robot_milker_per_unit": 3500000,
+        "tmr_mixer_wagon_12m3": 850000,
+        "lorawAN_gateway": 15000,
+        "activity_sensor_per_head": 2500,
+        "rumen_bolus_per_head": 3500,
+        "raspberry_pi5_edge_kit": 5000
+    }
+}

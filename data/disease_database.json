@@ -1,0 +1,99 @@
+{
+    "diseases": [
+        {
+            "name": "Şap (FMD - Foot and Mouth Disease)",
+            "type": "Viral",
+            "endemic": "Türkiye dahil birçok ülke",
+            "symptoms": [
+                "Ağız, dil ve diş etlerinde şişli yaralar",
+                "Ayak tırnaklarında yaralar ve topallık",
+                "Yüksek ateş (>40°C)",
+                "Aşırı salya akışı",
+                "Süt veriminde ani düşüş"
+            ],
+            "transmission": "Direkt temas, hava yolu (kısa mesafe), kontamine araç/ekipman",
+            "zoonotic": false,
+            "prevention": "Yılda 2x FMD aşısı (Bakanlık programı)",
+            "economic_impact": "Kritik — İhracat yasağı, sürü imhası"
+        },
+        {
+            "name": "Brusella (Brucellosis)",
+            "type": "Bakteriyel",
+            "endemic": "Türkiye — Endemik",
+            "symptoms": [
+                "Düşük (Abortus) — Özellikle gebeliğin son üçte birinde",
+                "Plasentanın atılamaması (Retensiyon)",
+                "Epididimit (Erkeklerde)",
+                "Testis iltihabı ve kısırlık (Boğalarda)"
+            ],
+            "transmission": "Enfekte doğum materyalleri, süt, idrar",
+            "zoonotic": true,
+            "zoonotic_note": "İnsanlara çiğ süt tüketimi veya temas ile geçer. Malta Humması.",
+            "prevention": "Dişi buzağılara 3-6 aylıkken S19 aşısı. Pozitif hayvanlar itlaf.",
+            "economic_impact": "Çok Kritik — Zorunlu itlaf, sürü tazminatı sınırlı"
+        },
+        {
+            "name": "LSD (Lumpy Skin Disease / Çiçek Hastalığı)",
+            "type": "Viral (Capripoxvirus)",
+            "endemic": "Türkiye — Endemik (2013'ten itibaren)",
+            "symptoms": [
+                "Deri üzerinde 2-5 cm nodüller (özellikle baş, boyun, bacak)",
+                "Ateş, iştahsızlık",
+                "Süt veriminde düşüş",
+                "Lenf bezleri şişmesi"
+            ],
+            "transmission": "Sinekler (Stomoxys, Aedes), sivrisinekler",
+            "zoonotic": false,
+            "prevention": "Yılda 1x LSD aşısı (Yaz öncesi). Sinek mücadelesi.",
+            "economic_impact": "Yüksek — Topallık, kilo kaybı, süt düşüşü, ihracat yasağı riski"
+        },
+        {
+            "name": "SARA (Subacute Ruminal Acidosis)",
+            "type": "Metabolik / Beslenme",
+            "endemic": "Tüm yoğun işletmeler",
+            "symptoms": [
+                "Rumen pH 5.2-6.0 arası (uzun süreli)",
+                "İştahsızlık ve yem seçimi (kaba yemi tercih)",
+                "Kronik topallık (Laminitis - Beyaz Çizgi Yıkımı)",
+                "Sulu dışkı, gaz kabarcıkları",
+                "Süt yağı/Protein oranı < 1.1"
+            ],
+            "transmission": "Bulaşıcı değil — Yönetim hatası",
+            "zoonotic": false,
+            "prevention": "TMR NDF > %28, nişasta < %26, tampon (NaHCO3) kullanımı",
+            "economic_impact": "Yüksek — Kronik topallık ve verim kaybı"
+        },
+        {
+            "name": "Ketosis (Negatif Enerji Dengesi)",
+            "type": "Metabolik",
+            "endemic": "Yüksek verimli süt ineklerinde yaygın",
+            "symptoms": [
+                "İştahsızlık (özellikle kesif yeme ilgisizlik)",
+                "Süt veriminde düşüş",
+                "Keton kokusu (Aseton-elma kokusu)",
+                "Depresyon, tuzsuzluk",
+                "BHBA > 1.0 mmol/L (Subklinik)"
+            ],
+            "transmission": "Bulaşıcı değil",
+            "zoonotic": false,
+            "prevention": "Kuru dönem BCS yönetimi (3.25-3.50), transition period beslenmesi",
+            "economic_impact": "Yüksek — Üreme sorunları, bağışıklık zayıflığı, sekonder hastalıklar"
+        },
+        {
+            "name": "Mastitis (Meme İltihabı)",
+            "type": "Bakteriyel / Çevresel",
+            "endemic": "Her işletmede en yaygın hastalık",
+            "symptoms": [
+                "Meme lobunda sertlik, ısı artışı, ağrı",
+                "Sütte pıhtı, flok, renk değişimi",
+                "CMT skoru 2+ veya 3+",
+                "Ateş (klinik vakalar)",
+                "Süt miktarında ani düşüş"
+            ],
+            "transmission": "Sağım ekipmanı, ortam (Fırsatçı patojenler)",
+            "zoonotic": false,
+            "prevention": "Pre/Post dip, kuru dönem tedavisi, sağım hijyeni, SHS takibi",
+            "economic_impact": "Kritik — Ortalama $250-400/vaka (tedavi + kayıp süt)"
+        }
+    ]
+}

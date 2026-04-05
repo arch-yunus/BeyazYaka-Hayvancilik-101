@@ -1,0 +1,59 @@
+name: BeyazYaka Hayvancılık CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-data:
+    runs-on: ubuntu-latest
+    name: Validate Data Files
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON data files..."
+          for f in data/*.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "✅ $f" || (echo "❌ $f invalid JSON" && exit 1)
+          done
+
+  run-scripts:
+    runs-on: ubuntu-latest
+    name: Run Python Scripts
+    needs: validate-data
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Ration Calculator
+        run: python scripts/ration_calculator.py
+
+      - name: Run Financial Model
+        run: python scripts/financial_model.py
+
+      - name: Run Herd Health Tracker Demo
+        run: python scripts/herd_health_tracker.py
+
+  lint-markdown:
+    runs-on: ubuntu-latest
+    name: Lint Markdown Files
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count documentation files
+        run: |
+          echo "📊 Documentation Stats:"
+          echo "  Markdown files: $(find . -name '*.md' -not -path './.git/*' | wc -l)"
+          echo "  Python scripts: $(find scripts/ -name '*.py' | wc -l)"
+          echo "  Data files:     $(find data/ -name '*.json' | wc -l)"
+          echo "✅ Repo health check passed."
