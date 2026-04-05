@@ -1,0 +1,113 @@
+{
+    "cattle": {
+        "holstein": {
+            "type": "Dairy",
+            "maintenance_dm_kg": 15.0,
+            "lactation_cp_pct": 17.5,
+            "energy_mcal_kg": 1.65,
+            "min_fiber_pct": 28.0,
+            "calcium_pct": 0.60,
+            "phosphorus_pct": 0.35
+        },
+        "jersey": {
+            "type": "Dairy",
+            "maintenance_dm_kg": 12.0,
+            "lactation_cp_pct": 18.0,
+            "energy_mcal_kg": 1.70,
+            "min_fiber_pct": 27.0,
+            "calcium_pct": 0.65,
+            "phosphorus_pct": 0.38
+        },
+        "angus": {
+            "type": "Beef",
+            "maintenance_dm_kg": 12.0,
+            "growth_cp_pct": 14.0,
+            "energy_mcal_kg": 1.50,
+            "min_fiber_pct": 32.0,
+            "calcium_pct": 0.45,
+            "phosphorus_pct": 0.28
+        },
+        "simmental": {
+            "type": "Dual",
+            "maintenance_dm_kg": 14.0,
+            "growth_cp_pct": 15.0,
+            "energy_mcal_kg": 1.60,
+            "min_fiber_pct": 30.0,
+            "calcium_pct": 0.50,
+            "phosphorus_pct": 0.30
+        }
+    },
+    "sheep": {
+        "merino": {
+            "type": "Dual",
+            "maintenance_dm_kg": 1.5,
+            "growth_cp_pct": 12.0,
+            "energy_mcal_kg": 1.40,
+            "min_fiber_pct": 35.0,
+            "calcium_pct": 0.40,
+            "phosphorus_pct": 0.25
+        },
+        "saanen_goat": {
+            "type": "Dairy",
+            "maintenance_dm_kg": 2.2,
+            "lactation_cp_pct": 16.0,
+            "energy_mcal_kg": 1.55,
+            "min_fiber_pct": 30.0,
+            "calcium_pct": 0.55,
+            "phosphorus_pct": 0.32
+        },
+        "dorper": {
+            "type": "Meat",
+            "maintenance_dm_kg": 1.8,
+            "growth_cp_pct": 14.0,
+            "energy_mcal_kg": 1.50,
+            "min_fiber_pct": 33.0,
+            "calcium_pct": 0.45,
+            "phosphorus_pct": 0.28
+        }
+    },
+    "feeds": [
+        {
+            "name": "Alfalfa Silage",
+            "dm_pct": 35.0,
+            "cp_pct_dm": 18.0,
+            "energy_mcal_kg_dm": 1.45,
+            "cost_per_ton_as_fed": 1500
+        },
+        {
+            "name": "Corn Silage",
+            "dm_pct": 32.0,
+            "cp_pct_dm": 8.5,
+            "energy_mcal_kg_dm": 1.60,
+            "cost_per_ton_as_fed": 850
+        },
+        {
+            "name": "Barley Grain",
+            "dm_pct": 89.0,
+            "cp_pct_dm": 12.5,
+            "energy_mcal_kg_dm": 1.85,
+            "cost_per_ton_as_fed": 6500
+        },
+        {
+            "name": "Soybean Meal",
+            "dm_pct": 90.0,
+            "cp_pct_dm": 48.0,
+            "energy_mcal_kg_dm": 1.95,
+            "cost_per_ton_as_fed": 14500
+        },
+        {
+            "name": "Wheat Saman",
+            "dm_pct": 92.0,
+            "cp_pct_dm": 3.5,
+            "energy_mcal_kg_dm": 0.95,
+            "cost_per_ton_as_fed": 1200
+        },
+        {
+            "name": "Cottonseed Meal",
+            "dm_pct": 91.0,
+            "cp_pct_dm": 41.0,
+            "energy_mcal_kg_dm": 1.80,
+            "cost_per_ton_as_fed": 11000
+        }
+    ]
+}
