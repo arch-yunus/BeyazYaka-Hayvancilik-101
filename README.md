@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/banner.png" alt="BeyazYaka Hayvancılık 101 Banner" width="100%"/>
+</div>
+
 # 🐄 Beyaz Yaka Hayvancılık 101 | White-Collar Livestock Masterclass
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
