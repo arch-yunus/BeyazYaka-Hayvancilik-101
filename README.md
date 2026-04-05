@@ -27,9 +27,10 @@
 | 5 | [🛡️ Biyogüvenlik & Sağlık](#️-biyogüvenlik-ve-sağlık) | Aşılama, karantina, zoonoz |
 | 6 | [📡 Akıllı Tarım & IoT](#-akıllı-tarım-ve-iot) | Sensörler, Edge AI, LoRaWAN |
 | 7 | [📉 Finans & ROI](#-finans-ve-roi) | Maliyet, FCR, iş planı |
-| 8 | [⚙️ Araçlar & Scriptler](#️-araçlar-ve-scriptler) | Python araçları |
-| 9 | [📚 Bilgi Tabanı](#-bilgi-tabanı) | Dokümanlar ve kılavuzlar |
-| 10 | [🤝 Katkı & Lisans](#-katkı-ve-lisans) | Topluluk ve açık kaynak |
+| **8** | [**🏛️ Devlet Destekleri**](#️-devlet-destekleri) | **Hibe, sübvansiyonlu kredi, sigorta** |
+| 9 | [⚙️ Araçlar & Scriptler](#️-araçlar-ve-scriptler) | Python araçları |
+| 10 | [📚 Bilgi Tabanı](#-bilgi-tabanı) | Dokümanlar ve kılavuzlar |
+| 11 | [🤝 Katkı & Lisans](#-katkı-ve-lisans) | Topluluk ve açık kaynak |
 
 ---
 
@@ -287,6 +288,64 @@ Break-even (L/gün) = Günlük Toplam Gider (TL) / Süt Fiyatı (TL/L)
 
 ---
 
+## 🏛️ Devlet Destekleri
+
+> Hayvancılıkta **"Ne kadar kazanırsın?"** sorusunun ikinci cevabı buradadır. İyi yönetilen bir işletme, devlet destekleriyle yıllık gelirini **%15-30 oranında** artırabilir. Bu kaynakları yönetmek, artık bir "avantaj" değil — **rekabet zorunluluğu**dur.
+
+### Destek Ekosistemi Özeti
+
+| Kaynak | Tip | Potansiyel Değer |
+|---|---|---|
+| 🏛️ **Tarım Bakanlığı** | Doğrudan Ödeme | Katsayıya göre 1.400 - 2.800+ TL/baş |
+| 🇪🇺 **TKDK / IPARD III** | Geri Ödemesiz Hibe | Yatırımın %50-75'i |
+| 🏦 **Ziraat Bankası** | Sübvansiyonlu Kredi | %25-100 faiz indirimi |
+| 🛡️ **TARSİM** | Sigorta Prim Desteği | Primin %60'ı devletten |
+| 🤝 **Kooperatifler** | Kümülatif Avantaj | Tüm desteklerde +%5-25 bonus |
+
+### Katsayı Sistemi: Hakkınızı Masada Bırakmayın
+
+**2025 Güncel Temel Tutarlar:**
+- Buzağı: **1.400 TL/baş** (+%40 artış)
+- Malak: **2.800 TL/baş** (+%180 artış)
+- Kuzu/Oğlak: **300 TL/baş** (+%50 artış)
+
+**İlave Katsayılar:**
+
+| Katsayı Özelliği | Ek Oran |
+|---|---|
+| Genç Çiftçi (≤40 yaş) | +%25 |
+| Kadın Çiftçi | +%25 |
+| 1. Derece Örgüt Üyesi | +%10 |
+| Planlı Üretim Bölgesi | +%15 |
+| Organik Sertifika | +%50 |
+| Hastalıktan Ari İşletme | +%30 |
+
+> **Örnek:** Genç + Kooperatif Üyesi + Ari İşletme → `1.400 × 1.65 = 2.310 TL/buzağı`
+
+### IPARD III: En Büyük Hibe Kapısı
+
+- **Nedir?** AB + TR ortak finansmanı, geri ödemesiz.
+- **Ne kadar?** Uygun yatırım tutarının **%50-75'i** hibe.
+- **Ne için?** Ahır, sağım, soğutma, TMR mikseri, biyogaz, güneş enerjisi.
+- **Genç çiftçiye**: Standart hibe oranının **+%10 üstü**.
+
+> ⚠️ Çağrı açılmadan yatırıma başlamak hibe hakkını düşürür!
+
+### TARSİM — Hesaplanmış Risk Yönetimi
+
+```
+100,000 TL değerinde inek
+Yıllık prim: ~3,000 TL
+Devlet desteği (%60): ~1,800 TL
+Size kalan: ~1,200 TL
+
+50 baş sürü → 5M TL koruma | Net maliyet: ~60,000 TL/yıl
+```
+
+📄 **Tam kılavuz → [docs/strategy/devlet_destekleri.md](docs/strategy/devlet_destekleri.md)**
+
+---
+
 ## ⚙️ Araçlar ve Scriptler
 
 ### Python Araç Seti
@@ -331,7 +390,8 @@ docs/
 ├── strategy/
 │   ├── roi_calculator.md       # ROI hesaplama metodolojisi
 │   ├── lean_farming.md         # Yalın hayvancılık (Kaizen)
-│   └── business_plan_template.md # İş planı şablonu
+│   ├── business_plan_template.md # İş planı şablonu
+│   └── devlet_destekleri.md    # 🏛️ Hibe, kredi, sigorta tam kılavuzu
 └── infrastructure/
     ├── barn_design.md           # Barınak tasarım kriterleri
     └── equipment_guide.md       # Ekipman seçim rehberi
