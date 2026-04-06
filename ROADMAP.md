@@ -1,4 +1,4 @@
-# Roadmap: BeyazYaka-Hayvancilik-101
+# Roadmap: The Livestock Encyclopedia
 
 Our goal is to build the definitive open-source technical encyclopedia for data-driven livestock management.
 

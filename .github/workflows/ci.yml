@@ -1,4 +1,4 @@
-name: BeyazYaka Hayvancılık CI
+name: The Livestock Encyclopedia CI
 
 on:
   push:

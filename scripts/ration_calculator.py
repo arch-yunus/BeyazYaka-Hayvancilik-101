@@ -20,7 +20,7 @@ def calculate_ration(data, animal_breed, ration_mix):
         return
 
     print(f"\n" + "="*60)
-    print(f"BEYAZ YAKA HAYVANCILIK - RATION ANALYSIS: {animal_breed.upper()}")
+    print(f"THE LIVESTOCK ENCYCLOPEDIA - RATION ANALYSIS: {animal_breed.upper()}")
     print("="*60)
     
     target_cp = breed_data.get('lactation_cp_pct', breed_data.get('growth_cp_pct'))

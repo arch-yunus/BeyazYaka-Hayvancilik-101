@@ -1,4 +1,4 @@
-# Contributing to BeyazYaka-Hayvancilik-101
+# Contributing to The Livestock Encyclopedia
 
 We welcome contributions from everyone! Whether you are a professional veterinarian, a seasoned farmer, or a white-collar professional with a passion for data-driven livestock management.
 

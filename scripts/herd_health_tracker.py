@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-herd_health_tracker.py -- BeyazYaka Suru Saglik Kayit ve Uyari Sistemi
+# herd_health_tracker.py -- THE LIVESTOCK ENCYCLOPEDIA: Sürü Sağlık Kayıt ve Uyarı Sistemi
 Basit CLI tabanli suru saglik veri yonetimi ve anomali uyarisi
 """
 

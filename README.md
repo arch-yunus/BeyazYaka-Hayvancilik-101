@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/banner.png" alt="BeyazYaka Hayvancılık 101 Banner" width="100%"/>
+  <img src="assets/banner.png" alt="The Livestock Encyclopedia Banner" width="100%"/>
 </div>
 
-# 🐄 Beyaz Yaka Hayvancılık 101 | White-Collar Livestock Masterclass
+# 🐄 The Livestock Encyclopedia | Veri Odaklı Modern Hayvancılık
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docs](https://img.shields.io/badge/Docs-Kapsamlı-blue.svg)]()
@@ -10,9 +10,9 @@
 [![Language: TR/EN](https://img.shields.io/badge/Language-TR%2FEN-orange.svg)]()
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)]()
 
-> **TR:** Kurumsal dünyadan tarımsal üretime geçiş yapan profesyoneller için; veri odaklı, teknik ve sürdürülebilir hayvancılığın ansiklopedik kılavuzu. Genetikten finansmana, beslenmeden IoT'ye kadar her şey bu repoda.
+> **TR:** Veri odaklı, teknik ve sürdürülebilir hayvancılığın nihai ansiklopedik kılavuzu. Kurumsal disiplini modern tarımla buluşturan, yüksek yoğunluklu mühendislik kaynağı.
 >
-> **EN:** The encyclopedic guide to data-driven, technical, and sustainable livestock management for professionals transitioning from the corporate world. From genetics to finance, nutrition to IoT — everything is in this repository.
+> **EN:** The definitive encyclopedic guide to data-driven, technical, and sustainable livestock engineering. Bridging corporate discipline with modern agriculture through high-density knowledge.
 
 ---
 
@@ -36,7 +36,7 @@
 
 ## 📌 Misyon ve Mimari
 
-### Neden "Beyaz Yaka Hayvancılık"?
+### Neden "The Livestock Encyclopedia"?
 
 Türkiye'de hayvancılık sektörü, son 20 yılda dramatik bir dönüşüm yaşadı. Ancak sektöre giren beyaz yakalı profesyoneller, teknik bilgiye sistematik biçimde ulaşmakta ciddi güçlük çekiyor. Bu repo, bu boşluğu **kurumsal metodoloji** ile dolduruyor.
 
@@ -409,6 +409,6 @@ Bu proje sürekli büyüyen, açık kaynaklı bir bilgi tabanıdır. Katkıda bu
 
 **"Hayvancılığı data ile yönet, sezgiyle değil."**
 
-*BeyazYaka-Hayvancilik-101 — Kurumsal dünyadan çiftliğe köprü*
+*The-Livestock-Encyclopedia — Data-driven precision, elite-level results.*
 
 </div>

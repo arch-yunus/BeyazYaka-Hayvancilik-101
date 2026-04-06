@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-financial_model.py — BeyazYaka Hayvancilik Finansal Modeli
+financial_model.py — THE LIVESTOCK ENCYCLOPEDIA: Finansal Model
 ROI, Break-even, Nakit Akışı ve 5 Yıllık Projeksiyon
 """
 
@@ -91,7 +91,7 @@ def run_financial_model(params: FarmParameters, years: int = 5) -> List[YearlyRe
 
 def print_report(params: FarmParameters, results: List[YearlyResults]):
     print("\n" + "=" * 70)
-    print("  BEYAZ YAKA HAYVANCILIK - 5 YILLIK FİNANSAL PROJEKSIYON")
+    print("  THE LIVESTOCK ENCYCLOPEDIA - 5 YILLIK FİNANSAL PROJEKSİYON")
     print("=" * 70)
     print(f"  Başlangıç Sürü: {params.herd_size} baş | Başlangıç Yatırımı: {params.total_investment:,.0f} TL")
     print(f"  Günlük Süt: {params.daily_milk_per_cow}L/baş | Süt Fiyatı: {params.milk_price_per_liter} TL/L")
