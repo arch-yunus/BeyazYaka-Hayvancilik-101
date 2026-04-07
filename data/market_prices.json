@@ -1,55 +1,66 @@
 {
     "_meta": {
-        "last_updated": "2026-04",
+        "last_updated": "2026-04-07",
         "currency": "TRY",
-        "note": "Bu değerler referans niteliğindedir. Güncel fiyatları yerel piyasadan doğrulayın."
+        "note": "Aşağıdaki değerler Nisan 2026 piyasa verilerine göre güncellenmiştir. Yerel değişkenlikler gösterebilir."
     },
     "milk": {
-        "raw_milk_avg": 20.0,
-        "premium_organic": 32.0,
-        "a2_milk_premium": 38.0
+        "raw_milk_avg": 22.5,
+        "raw_milk_cold": 24.0,
+        "premium_organic": 35.0,
+        "a2_milk_premium": 42.0,
+        "jersey_milk_premium": 45.0
     },
     "beef": {
-        "holstein_male_calf_live_weight_per_kg": 180,
-        "angus_prime_carcass_per_kg": 650,
-        "simmental_mixed_per_kg": 220
+        "holstein_male_calf_live_weight_per_kg": 210,
+        "angus_prime_carcass_per_kg": 720,
+        "simmental_mixed_per_kg": 260,
+        "limousin_carcass_per_kg": 750
     },
     "feeds": {
-        "corn_silage_per_ton_asfed": 850,
-        "alfalfa_silage_per_ton_asfed": 1500,
-        "barley_grain_per_ton": 6500,
-        "soybean_meal_per_ton": 14500,
-        "cottonseed_meal_per_ton": 11000,
-        "wheat_straw_per_ton": 1200,
-        "commercial_concentrate_per_ton": 8500,
-        "dry_beet_pulp_per_ton": 7000,
-        "sunflower_meal_per_ton": 9500
+        "corn_silage_per_ton_asfed": 950,
+        "alfalfa_hay_per_ton": 8500,
+        "alfalfa_silage_per_ton_asfed": 1800,
+        "barley_grain_per_ton": 7200,
+        "corn_grain_per_ton": 7800,
+        "soybean_meal_per_ton": 16500,
+        "cottonseed_meal_per_ton": 12500,
+        "wheat_straw_per_ton": 1500,
+        "commercial_concentrate_per_ton": 9800,
+        "dry_beet_pulp_per_ton": 8000,
+        "sunflower_meal_per_ton": 10500,
+        "canola_meal_per_ton": 11500
     },
     "cattle_live_prices": {
-        "holstein_heifer_pregnant_per_head": 85000,
-        "holstein_cow_3rd_lactation_per_head": 65000,
-        "angus_heifer_per_head": 72000,
-        "simmental_cow_per_head": 70000,
-        "saanen_goat_dairy_per_head": 8500
+        "holstein_heifer_pregnant_per_head": 110000,
+        "holstein_cow_3rd_lactation_per_head": 85000,
+        "angus_heifer_per_head": 95000,
+        "simmental_cow_per_head": 90000,
+        "saanen_goat_dairy_per_head": 12000,
+        "jersey_heifer_per_head": 105000
     },
     "veterinary": {
-        "fmd_vaccine_per_dose": 45,
-        "brucella_vaccine_per_dose": 30,
-        "lsd_vaccine_per_dose": 35,
-        "clostridial_combo_per_dose": 55,
-        "routine_visit_fee": 500,
-        "insemination_cost_conventional_per_dose": 350,
-        "insemination_cost_sexed_per_dose": 2500,
-        "pregnancy_check_per_head": 200
+        "fmd_vaccine_per_dose": 65,
+        "brucella_vaccine_per_dose": 45,
+        "lsd_vaccine_per_dose": 55,
+        "clostridial_combo_per_dose": 85,
+        "routine_visit_fee": 750,
+        "insemination_cost_conventional_per_dose": 500,
+        "insemination_cost_sexed_per_dose": 3200,
+        "pregnancy_check_per_head": 350,
+        "blood_sample_analysis": 600
     },
     "equipment": {
-        "2x4_milking_parlor": 750000,
-        "4x4_milking_parlor": 1200000,
-        "vms_robot_milker_per_unit": 3500000,
-        "tmr_mixer_wagon_12m3": 850000,
-        "lorawAN_gateway": 15000,
-        "activity_sensor_per_head": 2500,
-        "rumen_bolus_per_head": 3500,
-        "raspberry_pi5_edge_kit": 5000
+        "2x4_milking_parlor": 950000,
+        "4x4_milking_parlor": 1500000,
+        "vms_robot_milker_per_unit": 4200000,
+        "tmr_mixer_wagon_12m3": 1100000,
+        "tmr_mixer_wagon_5m3": 450000,
+        "loraWAN_gateway": 18500,
+        "activity_sensor_per_head_collar": 3200,
+        "rumen_bolus_per_head": 4800,
+        "raspberry_pi5_edge_kit": 6500,
+        "industrial_cooler_tank_3000L": 650000
     }
 }
+

@@ -2,13 +2,13 @@
     "diseases": [
         {
             "name": "Şap (FMD - Foot and Mouth Disease)",
-            "type": "Viral",
+            "type": "Viral (Picornaviridae)",
             "endemic": "Türkiye dahil birçok ülke",
             "symptoms": [
                 "Ağız, dil ve diş etlerinde şişli yaralar",
                 "Ayak tırnaklarında yaralar ve topallık",
                 "Yüksek ateş (>40°C)",
-                "Aşırı salya akışı",
+                "Aşırı salya akışı (İp gibi)",
                 "Süt veriminde ani düşüş"
             ],
             "transmission": "Direkt temas, hava yolu (kısa mesafe), kontamine araç/ekipman",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Brusella (Brucellosis)",
-            "type": "Bakteriyel",
+            "type": "Bakteriyel (B. abortus)",
             "endemic": "Türkiye — Endemik",
             "symptoms": [
                 "Düşük (Abortus) — Özellikle gebeliğin son üçte birinde",
@@ -35,7 +35,7 @@
         {
             "name": "LSD (Lumpy Skin Disease / Çiçek Hastalığı)",
             "type": "Viral (Capripoxvirus)",
-            "endemic": "Türkiye — Endemik (2013'ten itibaren)",
+            "endemic": "Türkiye — Endemik",
             "symptoms": [
                 "Deri üzerinde 2-5 cm nodüller (özellikle baş, boyun, bacak)",
                 "Ateş, iştahsızlık",
@@ -45,55 +45,191 @@
             "transmission": "Sinekler (Stomoxys, Aedes), sivrisinekler",
             "zoonotic": false,
             "prevention": "Yılda 1x LSD aşısı (Yaz öncesi). Sinek mücadelesi.",
-            "economic_impact": "Yüksek — Topallık, kilo kaybı, süt düşüşü, ihracat yasağı riski"
+            "economic_impact": "Yüksek — Topallık, kilo kaybı, süt düşüşü"
+        },
+        {
+            "name": "Şarbon (Anthrax)",
+            "type": "Bakteriyel (Bacillus anthracis)",
+            "endemic": "Türkiye — Odak noktaları mevcut",
+            "symptoms": [
+                "Ani ölüm (Hiperakut)",
+                "Doğal deliklerden (ağız, burun, anüs) siyah, pıhtılaşmayan kan gelmesi",
+                "Yüksek ateş, solunum güçlüğü",
+                "Dalak şişmesi (Splenomegali)"
+            ],
+            "transmission": "Topraktaki sporlar vasıtasıyla, kontamine yem",
+            "zoonotic": true,
+            "zoonotic_note": "Akciğer, gastrointestinal veya deri şarbonu (Çoban çıbanı). Ölümcül olabilir.",
+            "prevention": "Mihrak bölgelerde yıllık aşılama. Kadavra asla açılmamalı!",
+            "economic_impact": "Kritik — Karantina, kadavra imhası, insan sağlığı riski"
+        },
+        {
+            "name": "BVD (Bovine Viral Diarrhea)",
+            "type": "Viral (Pestivirus)",
+            "endemic": "Global — Çok yaygın",
+            "symptoms": [
+                "Mukozal hastalık (Ağızda ülserler)",
+                "İshal, ateş, lökopeni",
+                "Düşük, ölü doğum, konjenital defektler",
+                "Persiste Enfekte (PI) buzağı doğumu"
+            ],
+            "transmission": "PI hayvanların salgıları, vertikal geçiş (anneden yavruya)",
+            "zoonotic": false,
+            "prevention": "PI hayvanların tespiti ve sürüden çıkarılması (Culling). Aşılama (İnaktif/MLV).",
+            "economic_impact": "Yüksek — Üreme kayıpları, sürü bağışıklığının çökmesi"
+        },
+        {
+            "name": "IBR (Infectious Bovine Rhinotracheitis)",
+            "type": "Viral (Bovine Herpesvirus-1)",
+            "endemic": "Türkiye — Yaygın",
+            "symptoms": [
+                "Üst solunum yolu enfeksiyonu (Kızıl burun)",
+                "Pürülan burun akıntısı, öksürük",
+                "Düşük (gebeliğin 4-8. aylarında)",
+                "Konjonktivit (Göz iltihabı)"
+            ],
+            "transmission": "Hava yolu (Damlacık), aşım (Sperma)",
+            "zoonotic": false,
+            "prevention": "Marker aşılar (gE negatif). Karantina.",
+            "economic_impact": "Orta/Yüksek — Süt verimi kaybı, tedavi maliyeti"
+        },
+        {
+            "name": "Leptospirosis",
+            "type": "Bakteriyel (Leptospira spp.)",
+            "endemic": "Nemli bölgelerde yaygın",
+            "symptoms": [
+                "Sarı süt (Mastitis benzeri ama meme yumuşak)",
+                "Düşük (Fırtına şeklinde)",
+                "İkterus (Sarılık), idrarda kan (Hemoglobinüri)",
+                "Yüksek ateş"
+            ],
+            "transmission": "Kontamine su kaynakları, kemirgen idrarı",
+            "zoonotic": true,
+            "zoonotic_note": "Weil hastalığı olarak bilinir. Su ile temas eden profesyoneller riskte.",
+            "prevention": "Kemirgen mücadelesi, su sanitasyonu, çok suşlu aşılar.",
+            "economic_impact": "Orta — Süt kaybı, üreme kayıpları"
+        },
+        {
+            "name": "Theileriosis (Mera Ateşi)",
+            "type": "Protozoon (Theileria annulata)",
+            "endemic": "Türkiye — Akdeniz ve Ege bölgeleri",
+            "symptoms": [
+                "Yüksek ateş (41-42°C)",
+                "Lenf yumrularında aşırı şişme",
+                "Anemi (Solgun mukozalar), sarılık",
+                "Göz kapaklarında peteşiyal kanamalar"
+            ],
+            "transmission": "Keneler (Hyalomma spp.)",
+            "zoonotic": false,
+            "prevention": "Kene mücadelesi (Akarisid), Theileria canlı aşısı.",
+            "economic_impact": "Kritik — Yüksek mortalite (%80'e kadar ölüme yol açabilir)"
+        },
+        {
+            "name": "Pasteurellosis (Pnömoni / Sefer Hastalığı)",
+            "type": "Bakteriyel (Pasteurella multocida / Mannheimia haemolytica)",
+            "endemic": "Besihanelerde yaygın",
+            "symptoms": [
+                "Ağır solunum güçlüğü, hırıltı",
+                "Burun akıntısı (Seröz -> Pürülan)",
+                "Ateş, baskı altında öksürük",
+                "Başın öne uzatılması (Hava açlığı)"
+            ],
+            "transmission": "Stres (Nakliye, iklim değişikliği), hava yolu",
+            "zoonotic": false,
+            "prevention": "Nakliye öncesi aşılama, iyi ventilasyon, stres yönetimi.",
+            "economic_impact": "Yüksek — Besi kaybı, yüksek ilaç maliyeti"
+        },
+        {
+            "name": "Yanıkara (Blackleg)",
+            "type": "Bakteriyel (Clostridium chauvoei)",
+            "endemic": "Meralarda yaygın",
+            "symptoms": [
+                "Bacak ve omuz kaslarında sert, ağrılı şişlikler",
+                "Şişliklere basıldığında çıtırtı sesi (Krepitan)",
+                "Ani topallık ve 12-48 saat içinde ölüm",
+                "Yüksek ateş"
+            ],
+            "transmission": "Topraktaki sporların ağız yoluyla alınması",
+            "zoonotic": false,
+            "prevention": "Klostridial karma aşılar (Polyvalent).",
+            "economic_impact": "Orta — Tekil hayvan ölümleri ama hızlı seyir"
         },
         {
             "name": "SARA (Subacute Ruminal Acidosis)",
             "type": "Metabolik / Beslenme",
-            "endemic": "Tüm yoğun işletmeler",
+            "endemic": "Yüksek verimli işletmeler",
             "symptoms": [
-                "Rumen pH 5.2-6.0 arası (uzun süreli)",
-                "İştahsızlık ve yem seçimi (kaba yemi tercih)",
-                "Kronik topallık (Laminitis - Beyaz Çizgi Yıkımı)",
+                "Rumen pH < 5.8 (uzun süreli)",
+                "İştahsızlık, yem seçimi",
+                "Laminitis (Topallık), beyaz çizgi yıkımı",
                 "Sulu dışkı, gaz kabarcıkları",
-                "Süt yağı/Protein oranı < 1.1"
+                "Süt yağında düşüş"
             ],
-            "transmission": "Bulaşıcı değil — Yönetim hatası",
+            "transmission": "Non-bulaşıcı (Yönetimsel)",
             "zoonotic": false,
-            "prevention": "TMR NDF > %28, nişasta < %26, tampon (NaHCO3) kullanımı",
-            "economic_impact": "Yüksek — Kronik topallık ve verim kaybı"
+            "prevention": "Rasyonda kaba yem oranı (NDF), tampon madde (Sodyum Bikarbonat).",
+            "economic_impact": "Yüksek — Gizli verim kayıpları"
         },
         {
-            "name": "Ketosis (Negatif Enerji Dengesi)",
+            "name": "Ketosis",
             "type": "Metabolik",
-            "endemic": "Yüksek verimli süt ineklerinde yaygın",
+            "endemic": "Doğum sonrası ilk 2-4 hafta",
             "symptoms": [
-                "İştahsızlık (özellikle kesif yeme ilgisizlik)",
-                "Süt veriminde düşüş",
-                "Keton kokusu (Aseton-elma kokusu)",
-                "Depresyon, tuzsuzluk",
-                "BHBA > 1.0 mmol/L (Subklinik)"
+                "Sütte ve nefeste aseton (elma) kokusu",
+                "Kesif yeme ilgisizlik, iştah kaybı",
+                "Ani zayıflama",
+                "Sinirsel formda kendi etrafında dönme, yalanma"
             ],
             "transmission": "Bulaşıcı değil",
             "zoonotic": false,
-            "prevention": "Kuru dönem BCS yönetimi (3.25-3.50), transition period beslenmesi",
-            "economic_impact": "Yüksek — Üreme sorunları, bağışıklık zayıflığı, sekonder hastalıklar"
+            "prevention": "Doğum öncesi ideal BCS (3.25), propilen glikol takviyesi.",
+            "economic_impact": "Yüksek — Üreme gecikmesi, süt kaybı"
+        },
+        {
+            "name": "Hipokalsemi (Süt Humması / Milk Fever)",
+            "type": "Metabolik",
+            "endemic": "Doğumdan hemen sonra",
+            "symptoms": [
+                "Kas titremeleri (Erken evre)",
+                "Yatamama veya 'S' şeklinde yatış (Sternale yatış)",
+                "Vücut ısısında düşüş (Soğuk kulaklar)",
+                "Defekasyon ve ürinasyon durması"
+            ],
+            "transmission": "Bulaşıcı değil",
+            "zoonotic": false,
+            "prevention": "Anyonik rasyon (DCAD) uygulaması, Ca/P dengesi.",
+            "economic_impact": "Orta — Hızlı tedavi ile kurtarılabilir, aksi halde ölüm"
         },
         {
             "name": "Mastitis (Meme İltihabı)",
-            "type": "Bakteriyel / Çevresel",
-            "endemic": "Her işletmede en yaygın hastalık",
+            "type": "Bakteriyel / Karma",
+            "endemic": "Süt işletmelerinde #1 problem",
             "symptoms": [
-                "Meme lobunda sertlik, ısı artışı, ağrı",
-                "Sütte pıhtı, flok, renk değişimi",
-                "CMT skoru 2+ veya 3+",
-                "Ateş (klinik vakalar)",
-                "Süt miktarında ani düşüş"
+                "Meme lobunda şişlik, kızarıklık, ağrı",
+                "Sütte pıhtı, kan veya su rengi değişim",
+                "Somatik Hücre Sayısı (SHS) artışı (>200k)",
+                "Süttte iletkenlik artışı"
             ],
-            "transmission": "Sağım ekipmanı, ortam (Fırsatçı patojenler)",
+            "transmission": "Sağım başlıkları, yataklık, kirli eller",
             "zoonotic": false,
-            "prevention": "Pre/Post dip, kuru dönem tedavisi, sağım hijyeni, SHS takibi",
-            "economic_impact": "Kritik — Ortalama $250-400/vaka (tedavi + kayıp süt)"
+            "prevention": "Sağım hijyeni (Pre-dip / Post-dip), kuru dönem tedavisi.",
+            "economic_impact": "Kritik — Tedavi maliyeti + imha edilen süt + verim kaybı"
+        },
+        {
+            "name": "Şişme (Bloat / Timpany)",
+            "type": "Beslenme / Fiziksel",
+            "endemic": "Mera veya yüksek tahıllı rasyonlarda",
+            "symptoms": [
+                "Sol açlık çukurluğunda aşırı şişlik",
+                "Solunum güçlüğü, ağızdan nefes alma",
+                "Sık sık yatıp kalkma, huzursuzluk",
+                "Şiddetli vakalarda asfiksi (boğulma) sonucu ölüm"
+            ],
+            "transmission": "Bulaşıcı değil",
+            "zoonotic": false,
+            "prevention": "Yavaş rasyon değişikliği, ıslak meraya aç karnına salmama.",
+            "economic_impact": "Düşük/Orta — Tedavi edilmezse akut ölüm riski"
         }
     ]
 }
+
