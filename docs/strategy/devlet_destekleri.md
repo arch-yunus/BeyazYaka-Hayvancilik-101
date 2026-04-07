@@ -1,358 +1,155 @@
 # Devlet Destekleri Rehberi | Government Support & Incentives Guide
-## Türkiye Hayvancılık Ekosisteminde Finansal Destek Haritası
+## Türkiye Hayvancılık Ekosisteminde Stratejik Finansman ve Teşvik Haritası (2024-2026)
 
-> **TR:** Bu kılavuz, hayvancılık sektörüne giren ya da mevcut işletmesini büyütmek isteyen profesyoneller için Türkiye'deki tüm devlet desteklerini, hibe programlarını, sübvansiyonlu kredileri ve sigorta avantajlarını tek çatı altında toplamaktadır.
+> **TR:** Bu kılavuz, 2024-2026 dönemini kapsayan "Yeni Hayvancılık Destekleme Modeli" çerçevesinde, profesyonel işletmelerin hibe, sübvansiyonlu kredi ve doğrudan desteklerden maksimum düzeyde yararlanması için gereken teknik detayları ve stratejik adımları içermektedir.
 >
-> **EN:** This guide consolidates all Turkish government grants, subsidized credits, and insurance incentives for livestock professionals under one roof.
+> **EN:** This guide provides technical details and strategic steps for maximizing grants, subsidized credits, and direct support under Turkey's "New Livestock Support Model" (2024-2026).
 
 ---
 
-## 📊 Destek Ekosistemi Haritası | Support Ecosystem Map
+## 📊 1. Yeni Destekleme Modeli: 3 Aşamalı Yapı | The 3-Tier Model
 
-```mermaid
-graph TD
-    A[Hayvancılık İşletmesi] --> B[Tarım ve Orman Bakanlığı]
-    A --> C[TKDK / IPARD III]
-    A --> D[Ziraat Bankası]
-    A --> E[TARSİM]
-    A --> F[Kooperatifler]
+Bakanlık artık "herkese aynı tutar" yerine, üretim kalitesini ve planlamayı ödüllendiren 3 aşamalı bir katsayı sistemi uygulamaktadır.
 
-    B --> B1[Canlı Hayvan Destekleri]
-    B --> B2[Hastalıktan Ari İşletme]
-    B --> B3[Sürü Yöneticisi Desteği]
-    B --> B4[Genç/Kadın Çiftçi Bonusu]
+### A. Temel Destek (Base Support)
+Her kayıtlı yetiştiricinin aldığı standart birim fiyattır.
+- **Buzağı/Malak Desteği:** 1.400 TL - 2.800 TL (Taban)
+- **Kuzu/Oğlak Desteği:** 300 TL (Taban)
 
-    C --> C1[Yatırım Hibesi %50-75]
-    C --> C2[Ahır Modernizasyonu]
-    C --> C3[Yenilenebilir Enerji]
+### B. Yönlendirici (Verimlilik) Katsayısı
+İşletme tipi ve verimlilik kriterlerine göre eklenen çarpanlardır.
+- **Aile İşletmesi:** +0.3 katsayı (20 baş altı sığır / 100 baş altı küçükbaş)
+- **Genç/Kadın Çiftçi:** +0.3 katsayı (40 yaş altı veya kadın girişimci)
+- **Planlı Üretim Bölgesi:** +0.3 katsayı (Bakanlıkça belirlenen havzalar)
 
-    D --> D1[Düşük Faizli Yatırım Kredisi]
-    D --> D2[İşletme Kredisi]
-    D --> D3[Hayvan Alım Kredisi]
-
-    E --> E1[Hayat Sigortası %60 Prim D.]
-    E --> E2[Gebelikte Yavru Kaybı]
-
-    F --> F1[Üyelik İndirimleri]
-    F --> F2[Toplu Alım Avantajı]
-
-    style A fill:#2d6a4f,color:#fff
-    style C fill:#1b4332,color:#fff
-    style B fill:#40916c,color:#fff
-```
+### C. Stratejik (Verimlilik) Katsayısı
+Üst düzey kalite ve sürü sağlığı kriterlerini ödüllendirir.
+- **Hastalıktan Ari İşletme:** +1.0 ile +4.0 arası devasa çarpanlar.
+- **I. Derece Örgüt Üyeliği:** +0.2 katsayı.
+- **Suni Tohumlama / Soykütüğü:** Verimlilik bazlı ek ödemeler.
 
 ---
 
-## 1. 🏛️ Tarım ve Orman Bakanlığı Destekleri
+## 🐄 2. Güncel Destek Kalemleri (2025-2026) | Current Subsidies
 
-### 1.1 Katsayı Sistemi Nedir?
+| Destek Kalemi | Temel Tutar (TL) | Stratejik Hedef (TL)* | Açıklama |
+|---|---|---|---|
+| **Buzağı Desteği** | 1,400 | **12,000+** | Ari işletmede, genç ve planlı bölgede ise. |
+| **Malak Desteği** | 2,800 | **15,000+** | Manda yetiştiriciliğinde yüksek katsayı. |
+| **Kuzu/Oğlak Desteği** | 300 | **1,500+** | Verimlilik ve sürü yenileme dahil. |
+| **Süt Desteği (Litre)** | 0.50 - 2.00 | **Üretim tipine göre** | Soğutulmuş süt ve örgüt üzerinden satış. |
+| **Çoban Desteği** | 81,000 | **Yıllık** | 150 baş üzeri küçükbaş sürüsü için. |
 
-2024-2026 döneminde Bakanlık, "sabit tutar" yerine **katsayı bazlı** bir ödeme sistemi uygulamaktadır. Formül şudur:
+*\*Stratejik Hedef: Tüm katsayı ve bonusların (Ari, Genç, Planlı, Örgüt) maksimize edildiği senaryoyu temsil eder.*
 
-```
-Net Ödeme = Temel Tutar × [1 + Σ (Geçerli Katsayılar)]
-```
+---
 
-Bu sistem, aynı hayvan için farklı çiftçilerin farklı miktarda destek almasına imkân tanır. Tüm katsayıları aynı anda kullanmak → **maksimum getiri** demektir.
+## 🛡️ 3. "Hastalıktan Ari İşletme" Statüsü: En Büyük Kaldıraç
 
-### 1.2 Temel Destekler (2025 Güncel)
+Bir hayvancılık işletmesinin karlılığını artıran tek en büyük "kağıt üstü" hamle **Ari İşletme (Disease-Free Status)** belgesi almaktır.
 
-| Destek Kalemi | Temel Tutar | 2024'e Göre Artış |
+### Neden Ari İşletme?
+1. **Desteği Katlar:** Temel buzağı desteğine ek olarak hayvan başına +5,000 TL ile +8,000 TL arasında ek ödeme gelir.
+2. **Süt Değeri:** Ari işletme sütü (Çiğ Süt) piyasa fiyatının üzerinde satılır.
+3. **Pazar Avantajı:** Bruselloz ve Tüberkülozdan temiz olduğu tescilli hayvanların satış değeri %30 daha yüksektir.
+4. **AB Standartları:** IPARD ve diğer uluslararası hibelerde öncelik sağlar.
+
+> [!TIP]
+> **Strateji:** İşletmeye 20 hayvanla başlayıp 2 yıl içinde Ari Statüsü alarak, 50 hayvanlık bir işletmenin alacağı toplam desteği çok daha az masrafla alabilirsiniz.
+
+---
+
+## 🇪🇺 4. TKDK / IPARD III — Yatırım Hibeleri (%50 - %75)
+
+2026 yılına kadar devam edecek olan IPARD III programı, hayvansal üretim tesisleri için en güçlü finansman kaynağıdır.
+
+### Hibe Oranları ve Bonuslar
+- **Temel Hibe:** %50
+- **Genç Çiftçi Bonusu:** +%10
+- **Dağlık Alan Karşılığı:** +%10
+- **Yenilenebilir Enerji (GES):** +%5 (Eğer tesis elektriğini güneşten alıyorsa hibe %75'e kadar çıkabilir).
+
+### IPARD III Yatırım Kalemleri (Özet)
+- **İnşaat:** Modern ahır, sağım hane, yem deposu yapımı.
+- **Makine-Ekipman:** Sıyırıcı, TMR mikseri, süt tankı, hayvan yatağı.
+- **Atık Yönetimi:** Gübre çukuru ve separasyon sistemleri.
+- **Yazılım:** Sürü yönetim yazılımları ve sensör sistemleri.
+
+---
+
+## 🏦 5. Ziraat Bankası Sübvansiyonlu Krediler
+
+Hazine faiz desteği sayesinde piyasa faizinin çok altında (hatta bazen %0 faizle) kredi kullanma imkanı mevcuttur.
+
+| Kredi Türü | Faiz İndirim Oranı | Üst Limit |
 |---|---|---|
-| **Buzağı Desteği** | 1.400 TL/baş | +%40 |
-| **Malak Desteği** | 2.800 TL/baş | +%180 |
-| **Kuzu/Oğlak Desteği** | 300 TL/baş | +%50 |
-| **Dişi Buzağı (Ari İşletme)** | 3.500 TL/baş* | - |
-
-*Hastalıktan ari statüdeki işletmelerde dişi buzağı desteği temel tutarın 2-3 katına çıkabilmektedir.
-
-### 1.3 İlave Katsayılar
-
-| Katsayı | Gereklilik | Ek Oran |
-|---|---|---|
-| **Genç Çiftçi** | 40 yaş altı | +%25 |
-| **Kadın Çiftçi** | Kayıtlı kadın işletmeci | +%25 |
-| **1. Derece Örgüt Üyeliği** | Kooperatif/Birlik aktif üyelik | +%10 |
-| **Planlı Üretim Bölgesi** | Bakanlık'ın belirlediği bölge/ürün | +%15 |
-| **Organik Sertifika** | Akredite organik belge | +%50 |
-| **Hastalıktan Ari İşletme** | Resmi ari statüsü (B1/B2) | +%30-100 |
-
-> **Hesaplama Örneği:** Genç, kadın, kooperatif üyesi, ari işletmede buzağı desteği:
-> `1.400 × (1 + 0.25 + 0.25 + 0.10 + 0.30) = 1.400 × 1.90 = 2.660 TL/buzağı`
-
-### 1.4 Sürü Yöneticisi Desteği
-
-- **Kimler yararlanır?** 150 baş ve üzeri küçükbaş (kuzu/oğlak) varlığına sahip işletmeler.
-- **Ne verilir?** Sürüde çalışan lisanslı sürü yöneticisinin maaşının bir kısmı Bakanlık tarafından karşılanır.
-- **Faydası:** Büyük koyun işletmelerinde işgücü maliyetini düşüren kritik bir destek.
-
-### 1.5 Önemli Önkoşullar
+| **Süt Sığırcılığı (Yatırım)** | %50 - %100 | 40 Milyon TL |
+| **Besicilik (İşletme)** | %25 - %75 | 20 Milyon TL |
+| **Küçükbaş Hayvancılık** | %75 - %100 | 25 Milyon TL |
+| **Genç/Kadın Girişimci** | +%25 Ek İndirim | - |
 
 > [!IMPORTANT]
-> Bakanlık desteklerinden yararlanabilmek için **tüm** aşağıdaki kayıtların eksiksiz ve güncel olması zorunludur:
-> - **TÜRKVET** (Türkiye Veteriner Bilgi Sistemi) — Her hayvanın küpe numarasıyla kayıtlı olması
-> - **ÇKS** (Çiftçi Kayıt Sistemi) — İşletmenin arazi/faaliyet kaydı
-> - **İşletme Tescil Belgesi** — İl Tarım Müdürlüğü onaylı
-> - **Hastalıktan Ari İşletme Statüsü** (ek destek için)
+> **"Köyümde Yaşamak İçin Bir Sürü Nedenim Var"** projesi kapsamında 100 başa kadar koyun/keçi alımı için faizsiz veya çok düşük faizli özel kredi paketleri sunulmaktadır.
 
 ---
 
-## 2. 🇪🇺 TKDK / IPARD III — AB Destekli Yatırım Hibesi
+## 🚀 6. 9 Adımda Destek Maksimizasyonu (Checklist)
 
-### 2.1 Programa Genel Bakış
+İşletmenizin alabileceği desteği zirveye taşımak için bu sırayı takip edin:
 
-**TKDK (Tarım ve Kırsal Kalkınmayı Destekleme Kurumu)**, Avrupa Birliği ve Türkiye Cumhuriyeti ortak finansmanıyla yürütülen **IPARD III Programı**'nı uygular. Bu program, hayvancılık sektöründeki en büyük **geri ödemesiz hibe** kaynağıdır.
-
-- **Hibe Oranı:** Uygun yatırım tutarının **%50 - %75'i** geri ödemesiz karşılanır.
-- **Kapsama:** Türkiye'nin 81 ili (il bazında öncelik listesi değişkendir).
-- **Çağrı Periyodu:** Yılda 1-2 kez başvuru dönemi açılır; takip etmek şarttır.
-
-### 2.2 Desteklenen Yatırım Kalemleri
-
-| Yatırım Konusu | Açıklama | Hibe Oranı |
-|---|---|---|
-| **Süt Sığırı Ahırı** | Yeni veya modernizasyon | %50 |
-| **Sağım Ekipmanı** | Milking parlor, VMS robot | %50 |
-| **Soğutma Tankı** | Süt depolama ve soğutma | %50 |
-| **TMR Mikseri** | Yem hazırlama ekipmanı | %50 |
-| **Biyogaz Tesisi** | Gübre + enerji | %65 |
-| **Güneş Enerjisi (PV)** | Çiftlik elektriği | %65-75 |
-| **Depo ve Silaj Tesisi** | Yem deposu, silaj çukuru | %50 |
-| **Young Farmer (Genç)** | 40 yaş altı başvuru sahibi | +%10 ek |
-
-### 2.3 Başvuru Adımları (Adım Adım)
-
-```
-ADIM 1: Fizibilite Raporu Hazırla
-         → Yatırım tutarını ve geri ödeme planını belgele
-         
-ADIM 2: TKDK İl Koordinatörlüğü'ne Ön Görüşme
-         → Başvuru kriterlerini sorgula
-         
-ADIM 3: Çağrı Dönemini Takip Et
-         → tkdk.gov.tr → Duyurular
-         
-ADIM 4: Başvuru Portalına Kayıt
-         → e-Başvuru sistemi üzerinden online başvuru
-
-ADIM 5: Proje Değerlendirme Süreci
-         → Teknik inceleme: 3-6 ay
-
-ADIM 6: Taahhütname ve Sözleşme İmzalama
-         → Yatırıma başlama izni
-
-ADIM 7: Yatırımı Gerçekleştir & Ödeme Talep Et
-         → Fatura ve hakediş belgelerini sun
-```
-
-### 2.4 Dikkat Edilmesi Gereken Riskler
-
-> [!WARNING]
-> IPARD hibesinde en sık yapılan hatalar:
-> - Çağrı açılmadan **yatırıma başlamak** → Hibe hakkı düşer.
-> - İhale usulüne aykırı tedarikçi seçimi → Ödeme iptali.
-> - **Taahhüt süresi (5 yıl)** dolmadan yatırımı satmak/devretmek → Geri ödeme + ceza.
-> - Raporlama dönemlerini kaçırmak → Sözleşme feshi.
+1. `[ ]` **I. Derece Örgüt Üyeliği:** Süt veya Damızlık Yetiştiricileri Birliği'ne kayıt olun (+0.2 katsayı).
+2. `[ ]` **TÜRKVET & ÇKS Güncelleme:** Verilerinizin %100 güncel olduğundan emin olun.
+3. `[ ]` **Planlı Üretim Bölgesi Kontrolü:** İşletmenizi destek kapsamındaki bir havzada kurun (+0.3 katsayı).
+4. `[ ]` **Genç/Kadın Ataması:** İşletme sahibini 40 yaş altı veya kadın olarak belirleyin (+0.3 katsayı).
+5. `[ ]` **TARSİM Sigortası:** Hayvanları sigortalatın (Ziraat Bankası kredisi ve bazı desteklerin ön şartıdır).
+6. `[ ]` **Ari İşletme Başvurusu:** İl Tarım Müdürlüğü'ne başvurup kan örneği testi takvimini başlatın.
+7. `[ ]` **Suni Tohumlama Teknolojisi:** Kayıtlı tohumlama yaparak verimlilik bonusu alın.
+8. `[ ]` **IPARD GES Yatırımı:** Enerji hibe oranınızı %75'e çekmek için çatı tipi güneş panelini projeye ekleyin.
+9. `[ ]` **Sürü Yöneticisi Belgesi:** 100 baş üzeri işletmeyseniz yetkili bakıcınız için 81.000 TL yıllık destek alın.
 
 ---
 
-## 3. 🏦 Ziraat Bankası & Tarımsal Finansman
-
-### 3.1 Düşük Faizli Yatırım Kredileri
-
-Cumhurbaşkanlığı Kararnamesi kapsamında, hayvancılık yatırımlarına yönelik **Hazine faiz sübvansiyonlu** krediler sağlanmaktadır.
-
-| Kredi Türü | Kullanım Amacı | Faiz İndirimi |
-|---|---|---|
-| **Yatırım Kredisi** | Ahır, ekipman, damızlık hayvan | %25-100 (kritere göre) |
-| **İşletme Kredisi** | Yem, ilaç, veteriner | %25-75 |
-| **Hayvan Alım Kredisi** | Damızlık inek, koç, teke | %50 |
-
-### 3.2 Kimler Daha Fazla İndirim Alır?
-
-| Özellik | Ek Faiz İndirimi |
-|---|---|
-| Genç Çiftçi (≤40 yaş) | +%25 |
-| Kadın Girişimci | +%25 |
-| Kooperatif Üyesi | +%10 |
-| OSB/OTB'de Yatırım | +%15 |
-| Küçükbaş Hayvancılık | +%20 |
-| Stratejik Ürün Üretimi | +%30 |
-
-### 3.3 Özel Kredi Projeleri
-
-**"Köyümde Yaşamak İçin Bir Sürü Nedenim Var"**
-- Küçükbaş (koyun/keçi) işletmesi kurmak isteyenlere yönelik.
-- 7 yıla kadar vade, 2 yıl geri ödemesiz dönem.
-- Faiz oranı: %0-5 bandı (dönemsel güncelleme).
-
-**"Kırsalda Bereket"**
-- Kırsal bölgelerde bütünleşik çiftlik kurulumunu destekler.
-- Kombine (ahır + sera + depo) yatırımlarda ek indirim.
-
-### 3.4 Başvuru İçin Hazır Olmanız Gereken Belgeler
-
-```
-Temel Belgeler:
-✓ ÇKS ve/veya TÜRKVET belgesi
-✓ Tapu veya kira sözleşmesi (≥ 10 yıl)
-✓ Vergi levhası
-✓ İşletme tescil belgesi
-
-Yatırım Belgesi:
-✓ Teknik proje (ahır vaziyet planı, ekipman listesi)
-✓ Fizibilite özeti (3 yıllık gelir-gider tahmini)
-✓ Fiyat teklifleri (min 3 tedarikçi)
-
-Varsa Bonus Belgeler:
-✓ Genç Çiftçi belgesi (TKDK onaylı)
-✓ Kooperatif üyesi belgesi
-✓ Organik tarım sertifikası
-```
-
----
-
-## 4. 🛡️ TARSİM — Devlet Destekli Tarım Sigortası
-
-### 4.1 2025-2026 Yenilikleri
-
-| Değişiklik | Detay |
-|---|---|
-| **Prim Desteği Artışı** | %50 → **%60** (büyükbaş hayat sigortası) |
-| **Yeni Teminat** | 20 ay+ dişi sığırlara "Gebelikte Yavru Kaybı" |
-| **Üyelik İndirimi** | 1. derece tarımsal örgüt üyelerine **%5 prim indirimi** |
-| **Planlı Üretim İndirimi** | Bakanlık planlı üretim kapsamındaki ürünlerde **prim indirimi** |
-
-### 4.2 Sigorta Kapsamları
-
-| Sigorta Tipi | Teminatlar | Prim Desteği |
-|---|---|---|
-| **Hayat Sigortası** | Ölüm, mecburi kesim | %60 |
-| **Verim Sigortası** | Süt verimi düşüşü (iklim kaynaklı) | %50 |
-| **Ahır Yangın/Doğal Afet** | Yapı hasarı | %50 |
-| **Hayvan Sürüsü Afet** | Dolu, fırtına, deprem | %60 |
-
-### 4.3 Neden Zorunlu Gibi Düşünün?
-
-> Bir Holstein inek değeri: ~80,000-100,000 TL
-> Yıllık sigorta primi: ~2,000-3,500 TL
-> Devlet prim desteği (%60): ~1,200-2,100 TL
->
-> **Size kalacak net prim: ~800-1,400 TL/baş/yıl**
->
-> 50 başlık sürü → Potansiyel koruma: 4-5 milyon TL | Net maliyet: ~50,000 TL/yıl
-
----
-
-## 5. 🤝 Kooperatifler & Tarımsal Örgütlenme
-
-### 5.1 Neden Kooperatif Üyesi Olmalısınız?
-
-Kooperatif üyeliği, salt "dayanışma" değil, **somut finansal avantajdır**:
-
-| Avantaj | Değeri |
-|---|---|
-| Bakanlık desteğinde ek katsayı | +%10 katsayı = Net gelir artışı |
-| TARSİM prim indirimi | %5 yıllık prim tasarrufu |
-| Ziraat Bankası faiz indirimi | +%10 ek sübvansiyon |
-| Toplu yem alımı | %8-15 maliyet avantajı |
-| Ortak sperma/aşı alımı | %20-30 maliyet avantajı |
-| Kesimhane ortaklığı | Et değer zincirine direkt erişim |
-
-### 5.2 Temel Örgütlenme Türleri
-
-| Örgüt | Açıklama | Bağlantı |
-|---|---|---|
-| **Tarım Kredi Kooperatifi** | Finansman ve girdi tedariki | [tarimkredi.com.tr](https://www.tarimkredi.com.tr) |
-| **Süt Üreticileri Birliği** | Süt pazarlama, ortak müzakere | İl bazlı |
-| **Yetiştiriciler Birliği** | Soy kütüğü ve ıslah programları | [hayvanciliklastik.org.tr](http://www.hayvanciliklastik.org.tr) |
-| **Damızlık Sığır Yetiştiricileri** | DSYMB — Holstein soy kütüğü | il bazlı |
-
----
-
-## 6. 🧮 Hibe Optimizasyon Hesaplayıcısı | Incentive Calculator
+## 🧮 7. Gelişmiş Destek Hesaplayıcı (Python Mockup)
 
 ```python
-# Hızlı Hesaplama: Hangi Desteklere Hak Kazandınız?
-
-def calculate_support(
-    herd_size: int,
-    animal_type: str,   # "buyukbas" veya "kucukbas"
-    is_young: bool,     # 40 yaş altı
-    is_female: bool,    # Kadın işletmeci
-    is_cooperative: bool,  # Kooperatif üyesi
-    is_ari: bool,       # Hastalıktan ari işletme
-    is_planned: bool,   # Planlı üretim bölgesi
-    is_organic: bool    # Organik sertifikalı
-) -> dict:
-
-    # Temel tutarlar (2025)
-    base = {"buyukbas": 1400, "kucukbas": 300}[animal_type]
-
-    # Katsayı hesabı
-    multiplier = 1.0
-    if is_young:      multiplier += 0.25
-    if is_female:     multiplier += 0.25
-    if is_cooperative: multiplier += 0.10
-    if is_planned:    multiplier += 0.15
-    if is_organic:    multiplier += 0.50
-    if is_ari:        multiplier += 0.30
-
-    per_head = base * multiplier
-    annual_total = per_head * herd_size
-
+def calculate_advanced_support(head_count, animal_type="cattle"):
+    # 2025-2026 Katsayıları
+    base_unit = 1400 if animal_type == "cattle" else 300
+    
+    multipliers = {
+        "family_farm": 0.3,
+        "young_woman": 0.3,
+        "planned_zone": 0.3,
+        "organization_member": 0.2,
+        "disease_free": 1.0, # Minimum Ari katsayısı
+        "soykutugu": 0.2
+    }
+    
+    # Maksimum Katsayı (Ari bir işletmede Genç ve Planlı Üretim yapan Çiftçi)
+    total_multiplier = 1.0 + sum(multipliers.values())
+    
+    per_head_total = base_unit * total_multiplier 
+    # Not: Ari işletmelerde ek nakdi ödemeler katsayı dışı da gelebilir.
+    
     return {
-        "per_head_tl":      round(per_head, 0),
-        "annual_total_tl":  round(annual_total, 0),
-        "multiplier":       round(multiplier, 2),
-        "bonus_pct":        round((multiplier - 1.0) * 100, 1)
+        "unit_payment": round(per_head_total, 2),
+        "total_annual": round(per_head_total * head_count, 2),
+        "leverage_ratio": round(total_multiplier, 2)
     }
 
-# Örnek: 50 baş, genç, kadın, kooperatif, ari işletme
-result = calculate_support(50, "buyukbas", True, True, True, True, False, False)
-# -> {'per_head_tl': 2520.0, 'annual_total_tl': 126000.0, 'multiplier': 1.8, 'bonus_pct': 80.0}
+# Örnek: 100 başlık profesyonel bir Ari işletme
+# calculate_advanced_support(100) -> 1,400 * 3.3 = 4,620 TL/baş (Yalnızca buzağı desteği)
 ```
 
 ---
 
-## 7. 📋 Başvuru Zaman Çizelgesi | Application Timeline
+## 🔗 8. Faydalı Bağlantılar
 
-```mermaid
-gantt
-    title Hayvancılık Destekleri Başvuru Takvimi (Tipik Yıl)
-    dateFormat  MM
-    axisFormat  %B
-
-    section Bakanlık Destekleri
-    Hayvan Sayım Bildirimleri     :01, 2M
-    Destek Başvuruları            :03, 3M
-    Ödeme Dönemi                  :08, 4M
-
-    section TKDK / IPARD
-    Çağrı Duyurusu (1. Dönem)    :01, 2M
-    Başvuru Penceresi             :02, 2M
-    Değerlendirme Süreci          :04, 4M
-    Sözleşme İmzalama             :08, 2M
-    Çağrı Duyurusu (2. Dönem)    :09, 2M
-
-    section TARSİM
-    Poliçe Yenileme / Yeni Başvuru :01, 12M
-```
+- **Tarım ve Orman Bakanlığı Desteklemeler:** [tarimorman.gov.tr](https://www.tarimorman.gov.tr)
+- **TKDK (IPARD) Çağrı Takvimi:** [tkdk.gov.tr](https://www.tkdk.gov.tr)
+- **Ziraat Bankası Tarım Kredileri:** [ziraatbank.com.tr](https://www.ziraatbank.com.tr)
+- **TARSİM Hasar Sorgulama:** [tarsim.gov.tr](https://www.tarsim.gov.tr)
 
 ---
 
-## 8. 🔗 Resmi Kaynaklar & Linkler
-
-| Kurum | Açıklama | URL |
-|---|---|---|
-| **Tarım ve Orman Bakanlığı** | Destekler Tebliği, ÇKS, TÜRKVET | [tarimorman.gov.tr](https://www.tarimorman.gov.tr) |
-| **TKDK** | IPARD III Çağrıları ve Başvuru | [tkdk.gov.tr](https://www.tkdk.gov.tr) |
-| **Ziraat Bankası** | Tarımsal Kredi Ürünleri | [ziraatbank.com.tr](https://www.ziraatbank.com.tr) |
-| **TARSİM** | Tarım Sigortası | [tarsim.gov.tr](https://www.tarsim.gov.tr) |
-| **Tarım Kredi** | Kooperatif Hizmetleri | [tarimkredi.com.tr](https://www.tarimkredi.com.tr) |
-| **e-Devlet Hayvancılık** | TÜRKVET Kayıt Sorgulama | [turkvet.gov.tr](https://www.turkvet.gov.tr) |
-
----
-
-> **Son Güncelleme:** Nisan 2026
-> **Uyarı:** Destek tutarları her yıl Cumhurbaşkanlığı Kararnameleri ve Bakanlık Tebliğleri ile güncellenmektedir. Kesin bilgi için ilgili kurumların resmi sitelerini takip ediniz.
+📄 **İlgili Raporlar → [scripts/financial_model.py](file:///g:/Di%C4%1Fer%20bilgisayarlar/Diz%C3%BCst%C3%BC%20Bilgisayar%C4%B1m/github%20repolar%C4%B1m/BeyazYaka-Hayvancilik-101/scripts/financial_model.py)**
